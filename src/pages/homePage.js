@@ -3,6 +3,7 @@ import Header from "../components/headerMovieList";
 import MovieList from "../components/movieList";
 import FilterControls from "../components/filterControls";
 
+
 const MovieListPage = () => {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
